@@ -1,0 +1,144 @@
+﻿<Window x:Class="LIBRARY.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LIBRARY"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFE4A39D" Offset="0.017"/>
+                    <GradientStop Color="#FF91E22F" Offset="1"/>
+                    <GradientStop Color="#FF1FBBB4" Offset="0.43"/>
+                    <GradientStop Color="#FFF09C38" Offset="0.67"/>
+                    <GradientStop Color="#FFAEC327" Offset="0.226"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Label Content="نام کاربری" HorizontalAlignment="Left" Margin="597,108,0,0" VerticalAlignment="Top" Width="162" FontSize="48" FontFamily="Mj_Sayeh-2"/>
+            <Label Content="رمز عبور" HorizontalAlignment="Left" Margin="597,194,0,0" VerticalAlignment="Top" Width="177" FontSize="48" Height="78" FontFamily="Mj_Sayeh-2"/>
+            <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="57" Margin="202,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DE5B" TextChanged="Textbox1_TextChanged"/>
+            <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="58" Margin="202,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DA2C" TextChanged="Textbox2_TextChanged"/>
+            <Ellipse Fill="#FFA4A428" HorizontalAlignment="Left" Height="100" Margin="692,-30,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+            <Ellipse Fill="#FFC9C336" HorizontalAlignment="Left" Height="86" Margin="597,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+            <Ellipse Fill="#FFC9EA84" HorizontalAlignment="Left" Height="65" Margin="526,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="71"/>
+            <Ellipse Fill="#FF999E2F" HorizontalAlignment="Left" Height="100" Margin="0,-35,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+            <Ellipse Fill="#FFBCC148" HorizontalAlignment="Left" Height="86" Margin="100,-21,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+            <Ellipse Fill="#FFB6E276" HorizontalAlignment="Left" Height="65" Margin="195,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="71"/>
+            <Ellipse Fill="#FFD8A61E" HorizontalAlignment="Left" Height="100" Margin="692,342,0,-22" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+            <Ellipse Fill="#FFD3BE79" HorizontalAlignment="Left" Height="86" Margin="597,356,0,-22" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+            <Ellipse Fill="#FFE0D6C1" HorizontalAlignment="Left" Height="65" Margin="526,377,0,-22" Stroke="Black" VerticalAlignment="Top" Width="71"/>
+            <Ellipse Fill="#FFDC9B28" HorizontalAlignment="Left" Height="100" Margin="-5,342,0,-22" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+            <Ellipse Fill="#FFD6C163" HorizontalAlignment="Left" Height="86" Margin="94,355,0,-21" Stroke="Black" VerticalAlignment="Top" Width="95"/>
+            <Ellipse Fill="#FFEEE6CD" HorizontalAlignment="Left" Height="65" Margin="189,376,0,-21" Stroke="Black" VerticalAlignment="Top" Width="72"/>
+            <Ellipse Fill="#FF80E1E6" HorizontalAlignment="Left" Height="50" Margin="-34,142,0,0" Stroke="Black" VerticalAlignment="Top" Width="77" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FF1FCFE2" HorizontalAlignment="Left" Height="50" Margin="-31,64,0,0" Stroke="Black" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFBADADA" HorizontalAlignment="Left" Height="50" Margin="-35,222,0,0" Stroke="Black" VerticalAlignment="Top" Width="77" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFDAE2E4" HorizontalAlignment="Left" Height="40" Margin="-28,304,0,0" Stroke="Black" VerticalAlignment="Top" Width="58" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFD14545" HorizontalAlignment="Left" Height="50" Margin="744,68,-30,0" Stroke="Black" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFCF6B5C" HorizontalAlignment="Left" Height="50" Margin="748,145,-32,0" Stroke="Black" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFC79B8A" HorizontalAlignment="Left" Height="50" Margin="750,228,-34,0" Stroke="Black" VerticalAlignment="Top" Width="76" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFD3B3B0" HorizontalAlignment="Left" Height="40" Margin="760,304,-26,0" Stroke="Black" VerticalAlignment="Top" Width="58" RenderTransformOrigin="0.5,0.5">
+                <Ellipse.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-88.315"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Ellipse.RenderTransform>
+            </Ellipse>
+            <Ellipse Fill="#FFC8E2A9" HorizontalAlignment="Left" Height="49" Margin="266,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="55"/>
+            <Ellipse Fill="#FFD0E8A7" HorizontalAlignment="Left" Height="49" Margin="466,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+            <Ellipse Fill="#FFE0D6C1" HorizontalAlignment="Left" Height="49" Margin="466,393,0,-22" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+            <Ellipse Fill="#FFE0D6C1" HorizontalAlignment="Left" Height="49" Margin="261,392,0,-21" Stroke="Black" VerticalAlignment="Top" Width="60"/>
+            <Button Content="ورود" HorizontalAlignment="Left" Margin="397,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF6FCFEC" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Content="ثبت نام" HorizontalAlignment="Left" Margin="202,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF6FCFEC" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+
+        </Grid>
+
+    </Grid>
+</Window>

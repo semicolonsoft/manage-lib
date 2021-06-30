@@ -1,0 +1,260 @@
+﻿<Window x:Class="LIBRARY.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LIBRARY"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid>
+        <Grid RenderTransformOrigin="0.482,0.48" Loaded="Window_Loaded" Margin="0,0,-8,-30">
+            <Grid.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFCF852D"/>
+                    <GradientStop Color="#FFE6CF41" Offset="0.977"/>
+                    <GradientStop Color="#FF86D02E" Offset="0.527"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+            <Image HorizontalAlignment="Left" Height="126" Margin="699,348,0,-24" VerticalAlignment="Top" Width="100" Source="img/floral corners 6.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-178.469"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="4,352,0,-2" VerticalAlignment="Top" Width="100" Source="img/floral corners 6.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-450.25"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="-8,0,0,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 6.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-358.75"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="702,-6,-2,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 6.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-268.629"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="-18,98,0,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="-18,188,0,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="-22,274,0,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="588,368,0,-18" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="482,366,0,-16" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="380,366,0,-16" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="274,364,0,-14" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="176,360,0,-10" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="98,370,0,-20" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="334.411"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="718,82,-18,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="716,172,-16,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Height="100" Margin="724,264,-24,0" VerticalAlignment="Top" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="44.27"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="82,-20,0,370" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="192,-18,0,368" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="298,-20,0,370" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="408,-16,0,366" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="516,-20,0,370" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Image HorizontalAlignment="Left" Margin="604,-18,0,368" Width="100" Source="img/floral corners 7.png" RenderTransformOrigin="-0.217,0.7">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="316.819"/>
+                        <TranslateTransform X="27.634" Y="39.992"/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Label Content="بانک پول" HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
+            <Label Content="لیست واریز ها" HorizontalAlignment="Left" Margin="498,63,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
+            <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="268" Margin="385,108,0,0" VerticalAlignment="Top" Width="344"/>
+            <Button x:Name="btnupdate" Content="پرداخت" HorizontalAlignment="Left" Margin="138,335,0,0" VerticalAlignment="Top" Width="132" Height="41" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+                <Button.Background>
+                    <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                        <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                        <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                        <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                        <GradientStop Color="#FF1ADA2B" Offset="1"/>
+                        <GradientStop Color="#FF1FBD6E" Offset="0.313"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Label Content="موجودی کتابخانه" HorizontalAlignment="Left" Margin="125,82,0,0" VerticalAlignment="Top" FontFamily="Mj_Sayeh-2" Width="202" FontSize="36"/>
+            <TextBox HorizontalAlignment="Left" Height="41" Margin="86,155,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="226"/>
+            <Label HorizontalAlignment="Left" Margin="125,201,0,0" VerticalAlignment="Top" FontFamily="Mj_Sayeh-2" Width="202" FontSize="36"/>
+            <Label Content=" افزایش موجودی کتابخانه" HorizontalAlignment="Left" Margin="95,211,0,0" VerticalAlignment="Top" FontFamily="Mj_Sayeh-2" Width="217" FontSize="36"/>
+            <TextBox HorizontalAlignment="Left" Height="35" Margin="125,288,0,0" TextWrapping="Wrap" Text="مبلغ برای افزایش موجودی وارد کنید" VerticalAlignment="Top" Width="170"/>
+        </Grid>
+
+    </Grid>
+</Window>
