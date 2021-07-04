@@ -79,6 +79,8 @@ namespace LIBRARY.classes
 
         public static bool email(string email)
         {
+            // 1 ta 32 char from 0-9A-Za-z_- and then @ and then 1 ta 8 char  from 0-9A-Za-z and then . and then 1ta 3 char from a-zA-Z
+
             foreach (var m in Regex.Matches(email, @"^([0-9A-Za-z_-]){1,32}@([0-9A-Za-z]){1,8}\.[a-zA-Z]{1,3}"))
             {
 
