@@ -61,6 +61,7 @@ namespace LIBRARY.classes
 
         public static bool phone(string phone)
         {
+            /// start with 09 and 9 digit past
             foreach (var m in Regex.Matches(phone, "^09[0-9]{9}"))
             {
 
