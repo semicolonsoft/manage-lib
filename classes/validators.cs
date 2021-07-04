@@ -59,6 +59,23 @@ namespace LIBRARY.classes
             }
         }
 
+        public static bool phone(string phone)
+        {
+            foreach (var m in Regex.Matches(phone, "^09[0-9]{9}"))
+            {
+
+
+                if (m.ToString().Equals(phone))
+                {
+
+                    return true;
+                }
+            }
+
+
+            return false;
+        }
+
     }
 
 }
