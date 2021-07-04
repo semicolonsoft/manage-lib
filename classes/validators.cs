@@ -95,6 +95,27 @@ namespace LIBRARY.classes
 
             return false;
         }
+
+
+
+        public static bool name(string name)
+        {
+            foreach (var m in Regex.Matches(name, "^[a-zA-Z]{3,32}"))
+            {
+
+
+                if (m.ToString().Equals(name))
+                {
+
+                    return true;
+                }
+            }
+
+
+            return false;
+
+        }
+
     }
 
 }
