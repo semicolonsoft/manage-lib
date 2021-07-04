@@ -140,6 +140,24 @@ namespace LIBRARY.classes
 
         }
 
+        public static bool cvv(string cvv)
+        {
+            foreach (var m in Regex.Matches(cvv, "^[0-9]{3,4}"))
+            {
+
+                if (m.ToString().Equals(cvv))
+                {
+
+                    return true;
+                }
+            }
+
+
+            return false;
+
+
+        }
+
     }
 
 }
