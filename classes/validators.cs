@@ -159,6 +159,26 @@ namespace LIBRARY.classes
 
         }
 
+        public static bool password(string password)
+        {
+
+            foreach (var m in Regex.Matches(password, "^(?=.*[A-Z])[a-zA-Z]{8,32}"))
+            {
+
+
+                if (m.ToString().Equals(password))
+                {
+
+                    return true;
+                }
+            }
+
+
+            return false;
+
+        }
+
+
     }
 
 }
