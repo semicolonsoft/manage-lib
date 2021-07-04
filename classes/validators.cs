@@ -118,6 +118,24 @@ namespace LIBRARY.classes
 
         }
 
+
+        public static bool datecard(string date_m, string date_d)
+        {
+            var now_date = DateTime.Now;
+
+            var card_date = new DateTime(DateTime.Now.Year, int.Parse(date_m), int.Parse(date_d));
+
+            Console.WriteLine($"{Math.Abs((now_date - card_date).Days)}");
+
+            if (Math.Abs((card_date - now_date).TotalDays) < 90)
+            {
+                return false;
+
+            }
+            return true;
+
+        }
+
     }
 
 }
