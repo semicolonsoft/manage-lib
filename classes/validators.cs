@@ -142,6 +142,7 @@ namespace LIBRARY.classes
 
         public static bool cvv(string cvv)
         {
+            // 3 or 4 digit
             foreach (var m in Regex.Matches(cvv, "^[0-9]{3,4}"))
             {
 
