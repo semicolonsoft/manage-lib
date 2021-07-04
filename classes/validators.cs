@@ -100,6 +100,8 @@ namespace LIBRARY.classes
 
         public static bool name(string name)
         {
+            // 3 ta 32 char from A-Za-z 
+
             foreach (var m in Regex.Matches(name, "^[a-zA-Z]{3,32}"))
             {
 
