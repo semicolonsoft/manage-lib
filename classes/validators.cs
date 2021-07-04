@@ -77,6 +77,22 @@ namespace LIBRARY.classes
             return false;
         }
 
+        public static bool email(string email)
+        {
+            foreach (var m in Regex.Matches(email, @"^([0-9A-Za-z_-]){1,32}@([0-9A-Za-z]){1,8}\.[a-zA-Z]{1,3}"))
+            {
+
+
+                if (m.ToString().Equals(email))
+                {
+
+                    return true;
+                }
+            }
+
+
+            return false;
+        }
     }
 
 }
