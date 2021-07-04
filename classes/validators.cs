@@ -161,7 +161,7 @@ namespace LIBRARY.classes
 
         public static bool password(string password)
         {
-
+            // contain atleast 1 A-Z and with lenth 8 ta 32 char
             foreach (var m in Regex.Matches(password, "^(?=.*[A-Z])[a-zA-Z]{8,32}"))
             {
 
