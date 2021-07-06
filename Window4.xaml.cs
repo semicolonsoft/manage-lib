@@ -24,12 +24,33 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+
+        private void TextBox_TextChanged_hazine(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void TextBox_TextChanged_shomarekart(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_tarikh1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_tarikh2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_cvv(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_pardakht(object sender, RoutedEventArgs e)
         {
 
         }

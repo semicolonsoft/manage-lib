@@ -97,7 +97,7 @@
             <Ellipse Fill="#FF3E3EDC" HorizontalAlignment="Left" Height="85" Margin="192,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
             <Ellipse Fill="#FF7B7BEC" HorizontalAlignment="Left" Height="72" Margin="283,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="90"/>
             <Ellipse Fill="#FF8DA8E2" HorizontalAlignment="Left" Height="67" Margin="341,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
-            <Button  x:Name="b"    Content="کتاب ها" HorizontalAlignment="Left" Margin="106,96,0,0" VerticalAlignment="Top" Width="167" Height="90" Click="Button_Click" FontFamily="rahrovan" FontSize="36" Grid.Column="1">
+            <Button  x:Name="books"    Content="کتاب ها" HorizontalAlignment="Left" Margin="106,96,0,0" VerticalAlignment="Top" Width="167" Height="90" Click="Button_Click_books" FontFamily="rahrovan" FontSize="36" Grid.Column="1">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -107,7 +107,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="a" Content="کتاب های من" HorizontalAlignment="Left" Margin="266,96,0,0" VerticalAlignment="Top" Width="226" Height="90" Click="Button_Click" FontFamily="rahrovan" FontSize="36" Grid.ColumnSpan="2">
+            <Button x:Name="Mybooks" Content="کتاب های من" HorizontalAlignment="Left" Margin="266,96,0,0" VerticalAlignment="Top" Width="226" Height="90" Click="Button_Click_Mybooks" FontFamily="rahrovan" FontSize="36" Grid.ColumnSpan="2">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -117,7 +117,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Content="کیف پول" HorizontalAlignment="Left" Margin="106,229,0,0" VerticalAlignment="Top" Width="169" Height="84" Click="Button_Click" FontFamily="rahrovan" FontSize="36" Grid.Column="1">
+            <Button x:Name="kifepool"  Content="کیف پول" HorizontalAlignment="Left" Margin="106,229,0,0" VerticalAlignment="Top" Width="169" Height="84" Click="Button_Click_kifepool" FontFamily="rahrovan" FontSize="36" Grid.Column="1">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -127,7 +127,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Content="اشتراک" HorizontalAlignment="Left" Margin="59,96,0,0" VerticalAlignment="Top" Width="133" Height="90" Click="Button_Click" FontFamily="rahrovan" FontSize="36">
+            <Button x:Name="eshterak" Content="اشتراک" Margin="59,96,260,0" VerticalAlignment="Top" Height="90" Click="Button_Click_eshterak" FontFamily="rahrovan" FontSize="36">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -137,7 +137,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="a_Copy" Content="ویرایش اطلاعات شخصی" HorizontalAlignment="Left" Margin="92,223,0,0" VerticalAlignment="Top" Width="350" Height="90" Click="Button_Click" FontFamily="rahrovan" FontSize="36">
+            <Button x:Name="EditData" Content="ویرایش اطلاعات شخصی" HorizontalAlignment="Left" Margin="92,223,0,0" VerticalAlignment="Top" Width="350" Height="90" Click="Button_Click_EditData" FontFamily="rahrovan" FontSize="36">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

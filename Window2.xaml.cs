@@ -30,12 +30,22 @@ namespace LIBRARY
             x.Show();
         }
 
-        private void Textbox1_TextChanged(object sender, TextChangedEventArgs e)
+        private void Textbox2_TextChanged_password(object sender, TextChangedEventArgs e)
         {
 
         }
 
-        private void Textbox2_TextChanged(object sender, TextChangedEventArgs e)
+        private void Textbox1_TextChanged_username(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_vorood(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_sabtenam(object sender, RoutedEventArgs e)
         {
 
         }

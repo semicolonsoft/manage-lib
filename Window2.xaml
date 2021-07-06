@@ -19,8 +19,8 @@
             </Grid.Background>
             <Label Content="نام کاربری" HorizontalAlignment="Left" Margin="597,108,0,0" VerticalAlignment="Top" Width="162" FontSize="48" FontFamily="Mj_Sayeh-2"/>
             <Label Content="رمز عبور" HorizontalAlignment="Left" Margin="597,194,0,0" VerticalAlignment="Top" Width="177" FontSize="48" Height="78" FontFamily="Mj_Sayeh-2"/>
-            <TextBox x:Name="textbox1" HorizontalAlignment="Left" Height="57" Margin="202,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DE5B" TextChanged="Textbox1_TextChanged"/>
-            <TextBox x:Name="textbox2" HorizontalAlignment="Left" Height="58" Margin="202,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DA2C" TextChanged="Textbox2_TextChanged"/>
+            <TextBox x:Name="textbox_username" HorizontalAlignment="Left" Height="57" Margin="202,125,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DE5B" TextChanged="Textbox1_TextChanged_username"/>
+            <TextBox x:Name="textbox_password" HorizontalAlignment="Left" Height="58" Margin="202,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="340" Background="#FFD2DA2C" TextChanged="Textbox2_TextChanged_password"/>
             <Ellipse Fill="#FFA4A428" HorizontalAlignment="Left" Height="100" Margin="692,-30,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
             <Ellipse Fill="#FFC9C336" HorizontalAlignment="Left" Height="86" Margin="597,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
             <Ellipse Fill="#FFC9EA84" HorizontalAlignment="Left" Height="65" Margin="526,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="71"/>
@@ -117,7 +117,7 @@
             <Ellipse Fill="#FFD0E8A7" HorizontalAlignment="Left" Height="49" Margin="466,-16,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
             <Ellipse Fill="#FFE0D6C1" HorizontalAlignment="Left" Height="49" Margin="466,393,0,-22" Stroke="Black" VerticalAlignment="Top" Width="60"/>
             <Ellipse Fill="#FFE0D6C1" HorizontalAlignment="Left" Height="49" Margin="261,392,0,-21" Stroke="Black" VerticalAlignment="Top" Width="60"/>
-            <Button Content="ورود" HorizontalAlignment="Left" Margin="397,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click">
+            <Button x:Name="button_login" Content="ورود" HorizontalAlignment="Left" Margin="397,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click_vorood">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -127,7 +127,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Content="ثبت نام" HorizontalAlignment="Left" Margin="202,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click">
+            <Button x:Name="button_Register" Content="ثبت نام" HorizontalAlignment="Left" Margin="202,290,0,0" VerticalAlignment="Top" Width="145" Height="75" FontSize="48" FontFamily="Mj_Sayeh-2" Click="Button_Click_sabtenam">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

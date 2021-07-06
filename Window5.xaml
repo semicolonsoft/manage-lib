@@ -101,7 +101,7 @@
             <Ellipse Fill="#FF3E3EDC" HorizontalAlignment="Left" Height="85" Margin="192,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="95"/>
             <Ellipse Fill="#FF7B7BEC" HorizontalAlignment="Left" Height="72" Margin="283,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="90"/>
             <Ellipse Fill="#FF8DA8E2" HorizontalAlignment="Left" Height="67" Margin="341,-62,0,0" Stroke="Black" VerticalAlignment="Top" Width="84"/>
-            <Button Content="کارمندان" HorizontalAlignment="Left" Margin="40,126,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click" FontFamily="rahrovan" FontSize="48" Grid.Column="1">
+            <Button x:Name="button_karmand" Content="کارمندان" HorizontalAlignment="Left" Margin="40,126,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click_karmand" FontFamily="rahrovan" FontSize="48" Grid.Column="1">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -111,7 +111,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Content="کتاب ها" HorizontalAlignment="Left" Margin="147,126,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click" FontFamily="rahrovan" FontSize="48">
+            <Button x:Name="button_book" Content="کتاب ها" HorizontalAlignment="Left" Margin="147,126,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click_book" FontFamily="rahrovan" FontSize="48">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -121,7 +121,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button Content="بانک پول" HorizontalAlignment="Left" Margin="321,284,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click" FontFamily="rahrovan" FontSize="48" Grid.ColumnSpan="2">
+            <Button x:Name="button_bankpool" Content="بانک پول" HorizontalAlignment="Left" Margin="321,284,0,0" VerticalAlignment="Top" Width="195" Height="126" Click="Button_Click_bankpool" FontFamily="rahrovan" FontSize="48" Grid.ColumnSpan="2">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

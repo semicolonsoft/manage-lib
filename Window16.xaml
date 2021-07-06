@@ -236,7 +236,7 @@
                 </Image.RenderTransform>
             </Image>
             <Label Content="کتاب ها  " HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
-            <Button x:Name="btnupdate_Copy1" Content="جست و جو کتاب" HorizontalAlignment="Left" Margin="227,120,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="20">
+            <Button x:Name="search_books" Content="جست و جو کتاب" HorizontalAlignment="Left" Margin="227,120,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click_search" FontSize="20">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -247,9 +247,9 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <DataGrid HorizontalAlignment="Left" Height="261" Margin="521,120,0,0" VerticalAlignment="Top" Width="201"/>
+            <DataGrid x:Name="data" HorizontalAlignment="Left" Height="261" Margin="521,120,0,0" VerticalAlignment="Top" Width="201" SelectionChanged="Data_SelectionChanged"/>
             <Label Content=" اطلاعات کتاب ها  " HorizontalAlignment="Left" Margin="550,72,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="24" FontFamily="rahrovan" Height="49" Foreground="#FFDA401E"/>
-            <Button x:Name="btnupdate_Copy" Content="امانت کتاب" HorizontalAlignment="Left" Margin="227,238,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="20">
+            <Button x:Name="btn_amanateketab" Content="امانت کتاب" HorizontalAlignment="Left" Margin="227,238,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click_amanateketab" FontSize="20">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

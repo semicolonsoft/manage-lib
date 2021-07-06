@@ -236,7 +236,7 @@
                 </Image.RenderTransform>
             </Image>
             <Label Content="کیف پول " HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
-            <Button x:Name="btnupdate" Content="موجودی کیف پول" HorizontalAlignment="Left" Margin="244,154,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_kifepool" Content="موجودی کیف پول" HorizontalAlignment="Left" Margin="244,154,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_kifepool" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -247,7 +247,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBox HorizontalAlignment="Left" Height="68" Margin="205,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="387"/>
+            <TextBox x:Name="text_mojoodi"   HorizontalAlignment="Left" Height="68" Margin="205,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="387" TextChanged="Text_mojoodi_TextChanged"/>
         </Grid>
 
     </Grid>

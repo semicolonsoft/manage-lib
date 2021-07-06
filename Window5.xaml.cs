@@ -24,7 +24,17 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_karmand(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_bankpool(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_book(object sender, RoutedEventArgs e)
         {
 
         }

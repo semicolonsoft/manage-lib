@@ -30,5 +30,25 @@ namespace LIBRARY
             a.Show();
             this.Hide();
         }
+
+        private void Text_mojoodi_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_mablagh_afzayesh_mojoodi_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_pardakht(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Datagrid_SelectionChanged_variz(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

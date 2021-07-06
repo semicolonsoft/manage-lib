@@ -24,11 +24,16 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Btnupdate_Click(object sender, RoutedEventArgs e)
+        private void Btnupdate_Click_add(object sender, RoutedEventArgs e)
         {
             Window9 a = new Window9();
             a.Show();
             this.Hide();
+        }
+
+        private void Datagrid_DataBook_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

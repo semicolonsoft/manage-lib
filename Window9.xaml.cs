@@ -24,7 +24,27 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Btnupdate_Click(object sender, RoutedEventArgs e)
+        private void Text_namebook_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Name_author_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_genre_book_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_shomare_print_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Btn_Click_add(object sender, RoutedEventArgs e)
         {
 
         }

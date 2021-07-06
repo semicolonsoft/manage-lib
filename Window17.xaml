@@ -236,9 +236,9 @@
                 </Image.RenderTransform>
             </Image>
             <Label Content="کتاب های من  " HorizontalAlignment="Left" Margin="296,66,0,0" VerticalAlignment="Top" Width="189" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
-            <DataGrid HorizontalAlignment="Left" Height="261" Margin="485,120,0,0" VerticalAlignment="Top" Width="237"/>
+            <DataGrid x:Name="data" HorizontalAlignment="Left" Height="261" Margin="485,120,0,0" VerticalAlignment="Top" Width="237"/>
             <Label Content=" کتاب امانت گرفته شده   " HorizontalAlignment="Left" Margin="485,72,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.473,0.462" FontSize="24" FontFamily="rahrovan" Height="49" Foreground="#FFDA401E"/>
-            <Button x:Name="btnupdate_Copy" Content="پس دادن کتاب" HorizontalAlignment="Left" Margin="194,193,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="20">
+            <Button x:Name="btn_passdadaneketab" Content="پس دادن کتاب" HorizontalAlignment="Left" Margin="194,193,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click_passdadaneketab" FontSize="20">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

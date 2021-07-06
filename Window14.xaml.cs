@@ -23,5 +23,35 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+
+        private void Text_name_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_email_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_telephon_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Text_password_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_edit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Data_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

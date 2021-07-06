@@ -236,7 +236,7 @@
                 </Image.RenderTransform>
             </Image>
             <Label Content="اعضا " HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
-            <Button x:Name="btnupdate" Content="کل اعضا" HorizontalAlignment="Left" Margin="89,120,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_members" Content="کل اعضا" HorizontalAlignment="Left" Margin="89,120,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_members" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -247,7 +247,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate_Copy" Content="اعضای متاخر در بازگردانی کتاب " HorizontalAlignment="Left" Margin="89,194,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_members_Delay" Content="اعضای متاخر در بازگردانی کتاب " HorizontalAlignment="Left" Margin="68,194,0,0" VerticalAlignment="Top" Width="325" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_members_Delay" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -258,7 +258,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate_Copy1" Content="اعضای متاخر در پرداخت اشتراک ماهانه." HorizontalAlignment="Left" Margin="68,273,0,0" VerticalAlignment="Top" Width="325" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="20">
+            <Button x:Name="btn_pardakht_Delay" Content="اعضای متاخر در پرداخت اشتراک ماهانه." HorizontalAlignment="Left" Margin="68,273,0,0" VerticalAlignment="Top" Width="325" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click_Delay" FontSize="20">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -269,7 +269,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <DataGrid HorizontalAlignment="Left" Height="261" Margin="419,120,0,0" VerticalAlignment="Top" Width="303"/>
+            <DataGrid x:Name="data" HorizontalAlignment="Left" Height="261" Margin="419,120,0,0" VerticalAlignment="Top" Width="303"/>
             <Label Content="اطلاعات " HorizontalAlignment="Left" Margin="521,74,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="24" FontFamily="rahrovan" Height="49" Foreground="#FFDA401E"/>
         </Grid>
 

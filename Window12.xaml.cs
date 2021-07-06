@@ -23,5 +23,20 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+
+        private void Btnupdate_Click_members(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_members_Delay(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_Delay(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

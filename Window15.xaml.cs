@@ -23,5 +23,30 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+
+        private void Button_Click_books(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_Mybooks(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_eshterak(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_kifepool(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_EditData(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

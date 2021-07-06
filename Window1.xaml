@@ -25,7 +25,7 @@
         <Ellipse Fill="#FF098726" HorizontalAlignment="Left" Height="170" Margin="0,310,0,-60" Stroke="Black" VerticalAlignment="Top" Width="121"/>
         <Ellipse Fill="#FF2CCF51" HorizontalAlignment="Left" Height="136" Margin="126,310,0,-26" Stroke="Black" VerticalAlignment="Top" Width="113"/>
         <Ellipse Fill="#FF89DC7C" HorizontalAlignment="Left" Height="110" Margin="244,310,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
-        <Button Content="عضو" HorizontalAlignment="Left" Margin="84,149,0,0" VerticalAlignment="Top" Width="162" Height="126" Click="Button_Click_2" FontFamily="rahrovan" FontSize="48">
+        <Button x:Name="button_member" Content="عضو" HorizontalAlignment="Left" Margin="84,149,0,0" VerticalAlignment="Top" Width="162" Height="126" Click="Button_Click_member" FontFamily="rahrovan" FontSize="48">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -35,7 +35,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="کارمند" HorizontalAlignment="Left" Margin="345,149,0,0" VerticalAlignment="Top" Width="144" Height="126" Click="Button_Click_1" FontFamily="rahrovan" FontSize="48">
+        <Button x:Name="button_karmand" Content="کارمند" HorizontalAlignment="Left" Margin="345,149,0,0" VerticalAlignment="Top" Width="144" Height="126" Click="Button_Click_karmand" FontFamily="rahrovan" FontSize="48">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -45,7 +45,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="مدیر" HorizontalAlignment="Left" Margin="597,149,0,0" VerticalAlignment="Top" Width="146" Height="126" Click="Button_Click" FontFamily="rahrovan" FontSize="48">
+        <Button x:Name="button_modir" Content="مدیر" HorizontalAlignment="Left" Margin="597,149,0,0" VerticalAlignment="Top" Width="146" Height="126" Click="Button_Click_modir" FontFamily="rahrovan" FontSize="48">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>

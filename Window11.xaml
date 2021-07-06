@@ -236,7 +236,7 @@
                 </Image.RenderTransform>
             </Image>
             <Label Content="کتاب ها " HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
-            <Button x:Name="btnupdate" Content="کل کتاب" HorizontalAlignment="Left" Margin="89,120,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_koleketab" Content="کل کتاب" HorizontalAlignment="Left" Margin="89,120,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_ketab" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -247,7 +247,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate_Copy" Content="کتاب ها در دست اعضا " HorizontalAlignment="Left" Margin="89,194,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_BooksofMembers" Content="کتاب ها در دست اعضا " HorizontalAlignment="Left" Margin="89,194,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_BooksofMembers" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -258,7 +258,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate_Copy1" Content="کل کتاب های کتابخانه" HorizontalAlignment="Left" Margin="89,273,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_booksofLibrary" Content="کل کتاب های کتابخانه" HorizontalAlignment="Left" Margin="89,273,0,0" VerticalAlignment="Top" Width="236" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click_booksofLibrary" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -269,7 +269,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <DataGrid HorizontalAlignment="Left" Height="261" Margin="416,120,0,0" VerticalAlignment="Top" Width="303"/>
+            <DataGrid x:Name="data" HorizontalAlignment="Left" Height="261" Margin="416,120,0,0" VerticalAlignment="Top" Width="303" SelectionChanged="Data_SelectionChanged"/>
             <Label Content="اطلاعات " HorizontalAlignment="Left" Margin="521,74,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="24" FontFamily="rahrovan" Height="49" Foreground="#FFDA401E"/>
         </Grid>
 

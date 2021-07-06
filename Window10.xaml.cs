@@ -24,11 +24,25 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Button_Click_books(object sender, RoutedEventArgs e)
         {
-            Window12 x = new Window12();
-            x.Show();
-            this.Hide();
+
+        }
+
+        private void Button_Click_members(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_editdata(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_kifepool(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

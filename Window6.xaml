@@ -237,8 +237,8 @@
             </Image>
             <Label Content="مدیریت کارمندان" HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
             <Label Content="لیست کارمندان" HorizontalAlignment="Left" Margin="507,74,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
-            <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Height="268" Margin="385,108,0,0" VerticalAlignment="Top" Width="344"/>
-            <Button x:Name="btndelete" Content="حذف کارمند" HorizontalAlignment="Left" Margin="115,108,0,0" VerticalAlignment="Top" Width="229" Height="70" FontFamily="rahrovan" Click="Btndelete_Click" FontSize="24">
+            <DataGrid x:Name="datagrid_datakarmand" HorizontalAlignment="Left" Height="268" Margin="385,108,0,0" VerticalAlignment="Top" Width="344" SelectionChanged="Datagrid_datakarmand_SelectionChanged"/>
+            <Button x:Name="btn_delete" Content="حذف کارمند" HorizontalAlignment="Left" Margin="115,108,0,0" VerticalAlignment="Top" Width="229" Height="70" FontFamily="rahrovan" Click="Btndelete_Click_delete" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -249,7 +249,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate" Content="افزودن کارمند" HorizontalAlignment="Left" Margin="115,200,0,0" VerticalAlignment="Top" Width="229" Height="73" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_add" Content="افزودن کارمند" HorizontalAlignment="Left" Margin="115,200,0,0" VerticalAlignment="Top" Width="229" Height="73" FontFamily="rahrovan" Click="Btnupdate_Click_add" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -260,7 +260,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <Button x:Name="btnupdate_Copy" Content="واریز حقوق کارمندان" HorizontalAlignment="Left" Margin="115,298,0,0" VerticalAlignment="Top" Width="229" Height="65" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_hoghoogh" Content="واریز حقوق کارمندان" HorizontalAlignment="Left" Margin="115,298,0,0" VerticalAlignment="Top" Width="229" Height="65" FontFamily="rahrovan" Click="Btnupdate_Click_hoghoogh" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>

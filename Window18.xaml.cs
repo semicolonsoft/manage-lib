@@ -23,5 +23,14 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+
+        private void Mojoodikifepool_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+        private void Btnupdate_Click_afzayeshemojoodi(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

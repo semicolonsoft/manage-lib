@@ -37,5 +37,50 @@ namespace LIBRARY
             Window4 d = new Window4();
             d.Show();
         }
+
+        private void Button_name_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Telephon_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_email(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_1_password(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Datagrid_Data_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_pardakht(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_hazf(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_edit(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void button_Click_add(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

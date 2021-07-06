@@ -23,5 +23,20 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+
+        private void Btnupdate_Click_search(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_amanateketab(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Data_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

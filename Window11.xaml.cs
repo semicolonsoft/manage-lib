@@ -23,5 +23,24 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
+        private void Data_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_ketab(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_BooksofMembers(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_booksofLibrary(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

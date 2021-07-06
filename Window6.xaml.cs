@@ -23,17 +23,31 @@ namespace LIBRARY
         {
             InitializeComponent();
         }
-
-        private void Btndelete_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void Btnupdate_Click(object sender, RoutedEventArgs e)
         {
             Window4 b = new Window4();
             b.Show();
             this.Hide();
+        }
+
+        private void Datagrid_datakarmand_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Btndelete_Click_delete(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_add(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Btnupdate_Click_hoghoogh(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

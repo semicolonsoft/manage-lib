@@ -86,14 +86,14 @@
         </Image>
         <Label Content="صفحه پرداخت" HorizontalAlignment="Left" Margin="321,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.56,0.255" FontSize="36" FontFamily="Mj_Sayeh-2" FontWeight="Bold" Foreground="#FFDC3C0D" Width="148" Height="86"/>
         <Label Content="هزینه" HorizontalAlignment="Left" Margin="185,75,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="80" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="283,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="283,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="text_hazine" HorizontalAlignment="Left" Height="34" Margin="283,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged_hazine"/>
+        <TextBox x:Name="text_shomarekart" HorizontalAlignment="Left" Height="34" Margin="283,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged_shomarekart"/>
         <Label Content="شماره کارت" HorizontalAlignment="Left" Margin="113,148,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="152" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="283,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="348,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" TextChanged="TextBox_TextChanged"/>
-        <Label Content="/" HorizontalAlignment="Left" Margin="321,236,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="80" FontSize="36"/>
+        <TextBox x:Name="text_tarikh" HorizontalAlignment="Left" Height="34" Margin="283,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged_tarikh1"/>
+        <TextBox x:Name="text_tarikh2" HorizontalAlignment="Left" Height="34" Margin="348,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" TextChanged="TextBox_TextChanged_tarikh2"/>
+        <Label x:Name="text_tarikh1" Content="/" HorizontalAlignment="Left" Margin="321,231,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="80" FontSize="36"/>
         <Label Content="تاریخ انقضا" HorizontalAlignment="Left" Margin="113,221,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="165" FontSize="36" Height="59"/>
-        <Button Content="پرداخت" HorizontalAlignment="Left" Margin="283,364,0,0" VerticalAlignment="Top" Width="262" Height="56" Click="Button_Click" FontSize="36" FontFamily="Mj_Sayeh-2">
+        <Button x:Name="button_pardakht" Content="پرداخت" HorizontalAlignment="Left" Margin="283,364,0,0" VerticalAlignment="Top" Width="262" Height="56" Click="Button_Click_pardakht" FontSize="36" FontFamily="Mj_Sayeh-2">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -104,7 +104,7 @@
             </Button.Background>
         </Button>
         <Label Content="cvv" HorizontalAlignment="Left" Margin="199,285,0,0" VerticalAlignment="Top" Foreground="#FFD62828" FontFamily="rahrovan" Width="66" FontSize="36" Height="59" FontWeight="Bold"/>
-        <TextBox HorizontalAlignment="Left" Height="34" Margin="283,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="text_cvv" HorizontalAlignment="Left" Height="34" Margin="283,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" TextChanged="TextBox_TextChanged_cvv"/>
 
     </Grid>
 </Window>

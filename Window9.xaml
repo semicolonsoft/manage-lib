@@ -237,7 +237,7 @@
             </Image>
             <Label Content="افزودن کتاب " HorizontalAlignment="Left" Margin="308,54,0,0" VerticalAlignment="Top" Width="172" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
             <Label Content="نام کتاب " HorizontalAlignment="Left" Margin="173,108,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
-            <Button x:Name="btnupdate" Content="افزودن کتاب" HorizontalAlignment="Left" Margin="335,328,0,0" VerticalAlignment="Top" Width="144" Height="49" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="24">
+            <Button x:Name="btn_add" Content="افزودن کتاب" HorizontalAlignment="Left" Margin="335,328,0,0" VerticalAlignment="Top" Width="144" Height="49" FontFamily="rahrovan" Click="Btn_Click_add" FontSize="24">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -251,10 +251,10 @@
             <Label Content="نام نویسنده " HorizontalAlignment="Left" Margin="173,158,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
             <Label Content="ژانر کتاب " HorizontalAlignment="Left" Margin="173,208,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
             <Label Content="شماره چاپ کتاپ " HorizontalAlignment="Left" Margin="173,253,0,0" VerticalAlignment="Top" FontFamily="rahrovan" FontSize="22" Foreground="#FFE8381C"/>
-            <TextBox HorizontalAlignment="Left" Height="32" Margin="335,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234"/>
-            <TextBox HorizontalAlignment="Left" Height="32" Margin="335,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234"/>
-            <TextBox HorizontalAlignment="Left" Height="32" Margin="335,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234"/>
-            <TextBox HorizontalAlignment="Left" Height="27" Margin="335,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234"/>
+            <TextBox x:Name="text_namebook" HorizontalAlignment="Left" Height="32" Margin="335,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" TextChanged="Text_namebook_TextChanged"/>
+            <TextBox x:Name="name_author" HorizontalAlignment="Left" Height="32" Margin="335,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" TextChanged="Name_author_TextChanged"/>
+            <TextBox x:Name="text_genre_book" HorizontalAlignment="Left" Height="32" Margin="335,221,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" TextChanged="Text_genre_book_TextChanged"/>
+            <TextBox x:Name="text_shomare_print" HorizontalAlignment="Left" Height="27" Margin="335,266,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="234" TextChanged="Text_shomare_print_TextChanged"/>
         </Grid>
 
     </Grid>

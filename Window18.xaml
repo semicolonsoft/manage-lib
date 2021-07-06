@@ -237,7 +237,7 @@
             </Image>
             <Label Content="کیف پول " HorizontalAlignment="Left" Margin="296,66,0,0" VerticalAlignment="Top" Width="189" RenderTransformOrigin="0.473,0.462" FontSize="22" FontWeight="Bold" FontFamily="rahrovan" Height="49"/>
             <Label Content=" موجودی کیف پول   " HorizontalAlignment="Left" Margin="118,139,0,0" VerticalAlignment="Top" Width="237" RenderTransformOrigin="0.473,0.462" FontSize="24" FontFamily="rahrovan" Height="49" Foreground="#FFDA401E"/>
-            <Button x:Name="btnupdate_Copy" Content="افزایش موجودی" HorizontalAlignment="Left" Margin="296,276,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click" FontSize="20">
+            <Button x:Name="btn_afzayeshemojoodi" Content="افزایش موجودی" HorizontalAlignment="Left" Margin="296,276,0,0" VerticalAlignment="Top" Width="193" Height="70" FontFamily="rahrovan" Click="Btnupdate_Click_afzayeshemojoodi" FontSize="20">
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                         <GradientStop Color="#FFF3F3F3" Offset="0"/>
@@ -248,7 +248,7 @@
                     </LinearGradientBrush>
                 </Button.Background>
             </Button>
-            <TextBox HorizontalAlignment="Left" Height="38" Margin="326,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230"/>
+            <TextBox x:Name="mojoodikifepool" HorizontalAlignment="Left" Height="38" Margin="326,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="230" TextChanged="Mojoodikifepool_TextChanged"/>
         </Grid>
 
     </Grid>
