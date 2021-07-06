@@ -76,7 +76,7 @@ namespace LIBRARY.classes
 
             return false;
         }
-
+        //email
         public static bool email(string email)
         {
             // 1 ta 32 char from 0-9A-Za-z_- and then @ and then 1 ta 8 char  from 0-9A-Za-z and then . and then 1ta 3 char from a-zA-Z
