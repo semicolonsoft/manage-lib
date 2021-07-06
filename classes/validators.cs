@@ -97,7 +97,7 @@ namespace LIBRARY.classes
         }
 
 
-
+        //name
         public static bool name(string name)
         {
             // 3 ta 32 char from A-Za-z 
