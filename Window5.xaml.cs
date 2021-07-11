@@ -24,9 +24,22 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_karmand(object sender, System.EventArgs e)
         {
+            Window6 win = new Window6(); this.Hide();
+            win.Show();
+        }
 
+        private void Button_Click_bankpool(object sender, System.EventArgs e)
+        {
+            Window8 win = new Window8(); this.Hide();
+            win.Show();
+        }
+
+        private void Button_Click_book(object sender, System.EventArgs e)
+        {
+            Window7 win = new Window7(); this.Hide();
+            win.Show();
         }
     }
 }

@@ -19,16 +19,38 @@ namespace LIBRARY
     /// </summary>
     public partial class Window10 : Window
     {
-        public Window10()
+        string Name;
+        public Window10(string name)
         {
+            Name = name;
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+
+        private void Button_Click_books(object sender, RoutedEventArgs e)
         {
-            Window12 x = new Window12();
-            x.Show();
-            this.Hide();
+            Window11 win = new Window11(Name); win.Show();
+        }
+
+        private void Button_Click_members(object sender, RoutedEventArgs e)
+        {
+            Window12 win = new Window12(Name); win.Show();
+        }
+
+        private void Button_Click_editdata(object sender, RoutedEventArgs e)
+        {
+            Window14 win = new Window14(Name);
+        }
+
+        private void Button_Click_kifepool(object sender, RoutedEventArgs e)
+        {
+            Window13 win = new Window13(Name);
+            win.Show();
+        }
+
+        private void Label_DragLeave(object sender, DragEventArgs e)
+        {
+            Window1 win = new Window1(); this.Hide(); win.Show();
         }
     }
 }

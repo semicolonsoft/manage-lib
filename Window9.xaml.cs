@@ -24,9 +24,24 @@ namespace LIBRARY
             InitializeComponent();
         }
 
-        private void Btnupdate_Click(object sender, RoutedEventArgs e)
-        {
 
+
+        private void Btn_Click_add(object sender, RoutedEventArgs e)
+        {
+            Addbook a = new Addbook();
+            if (text_genre_book != null && text_namebook != null && name_author != null)
+                a.AddBook(text_namebook.Text, name_author.Text, text_genre_book.Text);
+            else
+            {
+                text_namebook.Text = "No Entry";
+            }
+            Window7 win = new Window7(); this.Hide();
+            win.Show();
+        }
+
+        private void Label_DragEnter(object sender, DragEventArgs e)
+        {
+            Window5 win = new Window5(); this.Hide(); win.Show();
         }
     }
 }

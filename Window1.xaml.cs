@@ -24,6 +24,11 @@ namespace LIBRARY
             InitializeComponent();
         }
 
+        public void Window_Loaded()
+        {
+
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
@@ -37,6 +42,24 @@ namespace LIBRARY
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void Button_Click_modir(object sender, RoutedEventArgs e)
+        {
+            Window2 win = new Window2("Modir"); this.Hide();
+            win.Show();
+        }
+
+        private void Button_Click_karmand(object sender, RoutedEventArgs e)
+        {
+            Window2 win = new Window2("Admin"); this.Hide();
+            win.Show();
+        }
+
+        private void Button_Click_member(object sender, RoutedEventArgs e)
+        {
+            Window2 win = new Window2("Member");
+            win.Show();
         }
     }
 }

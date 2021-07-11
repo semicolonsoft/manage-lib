@@ -19,9 +19,24 @@ namespace LIBRARY
     /// </summary>
     public partial class Window18 : Window
     {
-        public Window18()
+        string Nam;
+        public Window18(string name)
         {
+            Nam = name;
             InitializeComponent();
+            Mojudi moj = new Mojudi();
+            mojoodikifepool.Text = moj.mojudiMember(Nam).ToString();
+        }
+
+
+        private void Btnupdate_Click_afzayeshemojoodi(object sender, RoutedEventArgs e)
+        {
+            Window4 win = new Window4("Member", Nam); win.Show(); this.Close();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
